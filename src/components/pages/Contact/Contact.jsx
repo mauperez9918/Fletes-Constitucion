@@ -144,15 +144,6 @@ const Contact = () => {
           </p>
 
           <p className="contact-text">
-            En Gran Buenos Aires, además, se cobra por Km. recorrido. Consultar
-            Cuando en el recorrido del vehículo se incluyan autopistas también
-            se adicionará kilometraje. Fuera de los días y horarios indicados,
-            consulte valores y disponibilidad para el servicio de Transporte Los
-            valores indicados no incluyen gastos de peaje, estacionamiento e
-            I.V.A
-          </p>
-
-          <p className="contact-text">
             Los Precios son en Capital Federal y en horario de 07:00 hs. a 18:00
             hs. de Lunes a Viernes. Sábados de 07:00 hs. a 14:00 hs. No incluye
             feriados.

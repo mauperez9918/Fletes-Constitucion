@@ -8,9 +8,19 @@ footer {
 
 .footer-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 75%;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .blanco {
@@ -19,7 +29,7 @@ footer {
 
 @media screen and (max-width: 576px) {
   footer {
-    height: 210px;
+    height: 340px;
   }
 
   .footer-content {
@@ -31,6 +41,10 @@ footer {
 
   footer .footer-content div {
     text-align: center;
-    margin: 10px 0px;
+    margin: 4px 0px;
+  }
+
+  footer .footer-content img {
+    width: 115px;
   }
 }
