@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+  font-family: "Gabarito", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  color: rgba(2, 74, 113, 1);
+}
+
+h2 {
+  color: rgba(2, 74, 113, 1);
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* Bootstrap */
+
+.carrousel-item {
+  height: 410px;
+}
+
+.carousel-caption {
+  right: 0;
+  left: 0;
+  width: 70%;
+  border-radius: 8px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+/* Media querie mobile */
+
+@media screen and (max-width: 576px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .main {
+    display: unset;
+  }
+
+  .main-layout {
+    width: 100%;
+  }
+
+  .carousel-caption {
+    padding-bottom: 0;
+    height: 100px;
+  }
+
+  .carousel-control-next {
+    right: 20px;
+  }
+
+  .carousel-control-prev {
+    left: 20px;
+  }
+}

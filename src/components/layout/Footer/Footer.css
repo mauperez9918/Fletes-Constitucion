@@ -1,0 +1,36 @@
+footer {
+  height: 100px;
+  background-color: rgba(2, 74, 113, 1);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.blanco {
+  filter: brightness(0) invert(1);
+}
+
+@media screen and (max-width: 576px) {
+  footer {
+    height: 210px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  footer .footer-content div {
+    text-align: center;
+    margin: 10px 0px;
+  }
+}

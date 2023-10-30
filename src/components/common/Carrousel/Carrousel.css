@@ -1,0 +1,15 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(0) invert(1) sepia(0) saturate(10000%);
+}
+
+.font-shadow {
+  text-shadow: 6px 6px 10px rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 576px) {
+  .small-fontsize {
+    font-size: 14px;
+    margin: 0;
+  }
+}

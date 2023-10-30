@@ -1,0 +1,142 @@
+hr {
+  border-top: 1px solid rgba(2, 74, 113, 1);
+  margin: 10px 0px;
+}
+
+.banner {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}
+
+/* Services section */
+
+.services-section {
+  margin-top: 40px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.services-list {
+  margin: 25px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-list li {
+  margin: 20px 0;
+  color: rgba(2, 74, 113, 1);
+}
+
+/* Maps section */
+
+.map-section {
+  margin-top: 50px;
+  width: 95%;
+}
+
+.box-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 65px 25px;
+
+  width: 100%;
+}
+
+.storage-image {
+  width: 40%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.google-map {
+  width: 40%;
+  height: 450px;
+}
+
+/* Float section */
+
+.float-section {
+  width: 95%;
+}
+
+.float-section p {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.wpp-icon {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  margin: 20px;
+  transition: all 0.5s ease;
+}
+
+.wpp-icon:hover {
+  width: 95px;
+}
+
+/* Media querie mobile */
+
+@media screen and (max-width: 576px) {
+  .banner {
+    height: 40vh;
+  }
+
+  .services-list {
+    display: unset;
+    margin: 15px 0px;
+  }
+
+  .services-list div {
+    margin-bottom: 20px;
+  }
+
+  .services-list li {
+    margin: 10px 0;
+  }
+
+  .map-section {
+    margin-top: 10px;
+  }
+
+  .box-section {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .google-map {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+  }
+
+  .storage-image {
+    width: 100%;
+    height: 230px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .wpp-icon {
+    display: none;
+  }
+}

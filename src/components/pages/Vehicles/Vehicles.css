@@ -1,0 +1,30 @@
+.img-fluid {
+  width: 600px;
+  height: 400px;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.titulo-vehiculos {
+  background-color: rgba(2, 74, 113, 1);
+  width: 100%;
+  padding: 10px;
+}
+
+.titulo-vehiculos h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.titulo-vehiculos h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.vehicles-section {
+  margin: 25px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
